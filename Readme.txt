@@ -21,7 +21,11 @@ IV.  Credits
 
 The original game is Copyright 1980 by Williams Electronics Inc.  All credit to Eugene Jarvis, Larry DeMar, Sam Dicker and whoever else created that original game.  I am amazed by how much people did with so little back in the day.
 
-V.   Contact
+V.   Video
+
+A video of the game is on YouTube at http://youtu.be/YVFdiUXgYPg
+
+VI.  Contact
 
 Feel free to send me an email if you have any comments.
 
