@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B207E5D91A2A9B9000CA0358 /* sprites.png in Resources */ = {isa = PBXBuildFile; fileRef = B207E5D81A2A9B9000CA0358 /* sprites.png */; };
+		B207E5E71A2AACD800CA0358 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B207E5E61A2AACD800CA0358 /* logo.png */; };
+		B224C5421A25E46900458D20 /* WCDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = B224C5411A25E46900458D20 /* WCDemo.m */; };
+		B22D5A0E1A12B91000EA53FB /* WCBullet.m in Sources */ = {isa = PBXBuildFile; fileRef = B22D5A0D1A12B91000EA53FB /* WCBullet.m */; };
+		B22F45FA1A10D7A000C0FB6B /* WCBomber.m in Sources */ = {isa = PBXBuildFile; fileRef = B22F45F91A10D7A000C0FB6B /* WCBomber.m */; };
+		B22F46071A10FDE200C0FB6B /* WCFrontEnd.m in Sources */ = {isa = PBXBuildFile; fileRef = B22F46061A10FDE200C0FB6B /* WCFrontEnd.m */; };
+		B2475C581A16069F0065C2CB /* WCImplosionFX.m in Sources */ = {isa = PBXBuildFile; fileRef = B2475C571A16069E0065C2CB /* WCImplosionFX.m */; };
+		B24981131A1B41E10072F9F4 /* WCBomb.m in Sources */ = {isa = PBXBuildFile; fileRef = B24981121A1B41E10072F9F4 /* WCBomb.m */; };
+		B25632F01A14F8B5007A962F /* WCWessels.m in Sources */ = {isa = PBXBuildFile; fileRef = B25632EF1A14F8B5007A962F /* WCWessels.m */; };
+		B25632F61A153914007A962F /* wessels.png in Resources */ = {isa = PBXBuildFile; fileRef = B25632F51A153914007A962F /* wessels.png */; };
+		B25632F81A155807007A962F /* font.png in Resources */ = {isa = PBXBuildFile; fileRef = B25632F71A155807007A962F /* font.png */; };
+		B2780DBC1A1F603B00E2179A /* WCSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2780DBB1A1F603B00E2179A /* WCSoundManager.m */; };
+		B2780DBE1A1F676A00E2179A /* sounds.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2780DBD1A1F676A00E2179A /* sounds.plist */; };
+		B280BA9819FE8AC600034305 /* WCBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = B280BA9719FE8AC600034305 /* WCBackground.m */; };
+		B28173C41A0D904C00F5C9C0 /* WCMutant.m in Sources */ = {isa = PBXBuildFile; fileRef = B28173C31A0D904C00F5C9C0 /* WCMutant.m */; };
+		B281D3091A0E6605005818E3 /* WCScoreFX.m in Sources */ = {isa = PBXBuildFile; fileRef = B281D3081A0E6605005818E3 /* WCScoreFX.m */; };
+		B28954591A06CE480060807E /* WCLander.m in Sources */ = {isa = PBXBuildFile; fileRef = B28954581A06CE480060807E /* WCLander.m */; };
+		B289545C1A06CED00060807E /* WCHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = B289545B1A06CED00060807E /* WCHuman.m */; };
+		B289545F1A06D1850060807E /* WCAISprite.m in Sources */ = {isa = PBXBuildFile; fileRef = B289545E1A06D1850060807E /* WCAISprite.m */; };
+		B28EAAD21A1D6C3900B864C9 /* WCTextFX.m in Sources */ = {isa = PBXBuildFile; fileRef = B28EAAD11A1D6C3900B864C9 /* WCTextFX.m */; };
+		B290B3241A23461D009303EB /* humanfall.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B290B3231A23461D009303EB /* humanfall.mp4 */; };
+		B290B3261A234799009303EB /* bomberdie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B290B3251A234799009303EB /* bomberdie.mp4 */; };
+		B290B3281A234899009303EB /* laser.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B290B3271A234899009303EB /* laser.mp4 */; };
+		B29C4F221A0793AD003C8D09 /* WCLaser.m in Sources */ = {isa = PBXBuildFile; fileRef = B29C4F211A0793AD003C8D09 /* WCLaser.m */; };
+		B2A440941A0243CF0038FEAB /* WCInputManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A440931A0243CF0038FEAB /* WCInputManager.m */; };
+		B2AA4CF91A02D4D200F665BC /* WCPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AA4CF81A02D4D200F665BC /* WCPlayer.m */; };
+		B2AA4CFC1A02DCB100F665BC /* WCGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AA4CFB1A02DCB100F665BC /* WCGlobals.m */; };
+		B2B0A9E61A27D88D00A61D26 /* WCPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B0A9E51A27D88D00A61D26 /* WCPrefs.m */; };
+		B2C574D01A1B732200D311BC /* WCGrndExpFX.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C574CF1A1B732200D311BC /* WCGrndExpFX.m */; };
+		B2C574D41A1B7E9100D311BC /* sprites.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2C574D31A1B7E9100D311BC /* sprites.plist */; };
+		B2CA9E3A19FE7C1A008F0FE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CA9E3919FE7C1A008F0FE9 /* AppDelegate.m */; };
+		B2CA9E3C19FE7C1A008F0FE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CA9E3B19FE7C1A008F0FE9 /* main.m */; };
+		B2CA9E3E19FE7C1A008F0FE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2CA9E3D19FE7C1A008F0FE9 /* Images.xcassets */; };
+		B2CA9E4119FE7C1A008F0FE9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2CA9E3F19FE7C1A008F0FE9 /* MainMenu.xib */; };
+		B2CA9E4D19FE7C1A008F0FE9 /* defenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CA9E4C19FE7C1A008F0FE9 /* defenderTests.m */; };
+		B2CA9E6319FE7C70008F0FE9 /* WCView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CA9E5819FE7C70008F0FE9 /* WCView.m */; };
+		B2CA9E6419FE7C70008F0FE9 /* WCTextout.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CA9E5A19FE7C70008F0FE9 /* WCTextout.m */; };
+		B2CA9E6519FE7C70008F0FE9 /* WCSpriteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CA9E5C19FE7C70008F0FE9 /* WCSpriteManager.m */; };
+		B2CA9E6619FE7C70008F0FE9 /* WCMainLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CA9E5E19FE7C70008F0FE9 /* WCMainLoop.m */; };
+		B2CE8ECF1A0CD2EF005DB2C5 /* WCEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CE8ECE1A0CD2EF005DB2C5 /* WCEffects.m */; };
+		B2CE8ED21A0CD6FC005DB2C5 /* WCExplosionFX.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CE8ED11A0CD6FC005DB2C5 /* WCExplosionFX.m */; };
+		B2D8435D1A23F918001D6B90 /* WCPod.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D8435C1A23F918001D6B90 /* WCPod.m */; };
+		B2D843601A23F932001D6B90 /* WCSwarmer.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D8435F1A23F932001D6B90 /* WCSwarmer.m */; };
+		B2DF8B3E1A1294B5009011C7 /* WCBaiter.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DF8B3D1A1294B5009011C7 /* WCBaiter.m */; };
+		B2E412A81A0678BB0032B385 /* WCAIs.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E412A71A0678BB0032B385 /* WCAIs.m */; };
+		B2EFB2F11A221A410079B5A7 /* doublesiren.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B2EFB2E01A221A410079B5A7 /* doublesiren.mp4 */; };
+		B2EFB2F31A221A410079B5A7 /* humancatch.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B2EFB2E21A221A410079B5A7 /* humancatch.mp4 */; };
+		B2EFB2F41A221A410079B5A7 /* humanpickup.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B2EFB2E31A221A410079B5A7 /* humanpickup.mp4 */; };
+		B2EFB2F61A221A410079B5A7 /* inbound.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B2EFB2E51A221A410079B5A7 /* inbound.mp4 */; };
+		B2EFB2F71A221A410079B5A7 /* landerdie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B2EFB2E61A221A410079B5A7 /* landerdie.mp4 */; };
+		B2EFB2F81A221A410079B5A7 /* landershoot.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B2EFB2E71A221A410079B5A7 /* landershoot.mp4 */; };
+		B2EFB2F91A221A410079B5A7 /* mutantshoot.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B2EFB2E81A221A410079B5A7 /* mutantshoot.mp4 */; };
+		B2EFB2FB1A221A410079B5A7 /* playerdie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B2EFB2EA1A221A410079B5A7 /* playerdie.mp4 */; };
+		B2EFB2FC1A221A410079B5A7 /* scoretable.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B2EFB2EB1A221A410079B5A7 /* scoretable.mp4 */; };
+		B2EFB2FD1A221A410079B5A7 /* siren.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B2EFB2EC1A221A410079B5A7 /* siren.mp4 */; };
+		B2EFB2FE1A221A410079B5A7 /* start.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B2EFB2ED1A221A410079B5A7 /* start.mp4 */; };
+		B2EFB2FF1A221A410079B5A7 /* thrust.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B2EFB2EE1A221A410079B5A7 /* thrust.mp4 */; };
+		B2EFB3001A221A410079B5A7 /* wessels.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B2EFB2EF1A221A410079B5A7 /* wessels.mp4 */; };
+		B2EFB3011A221A410079B5A7 /* worldexplode.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B2EFB2F01A221A410079B5A7 /* worldexplode.mp4 */; };
+		B2F701B11A276311005C49B2 /* swarmershoot.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B2F701B01A276311005C49B2 /* swarmershoot.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2CA9E4719FE7C1A008F0FE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2CA9E2B19FE7C1A008F0FE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2CA9E3219FE7C1A008F0FE9;
+			remoteInfo = defender;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B207E5D81A2A9B9000CA0358 /* sprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sprites.png; sourceTree = "<group>"; };
+		B207E5E61A2AACD800CA0358 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		B224C5401A25E46900458D20 /* WCDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCDemo.h; sourceTree = "<group>"; };
+		B224C5411A25E46900458D20 /* WCDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCDemo.m; sourceTree = "<group>"; };
+		B22D5A0C1A12B91000EA53FB /* WCBullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCBullet.h; sourceTree = "<group>"; };
+		B22D5A0D1A12B91000EA53FB /* WCBullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WCBullet.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		B22F45F81A10D7A000C0FB6B /* WCBomber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCBomber.h; sourceTree = "<group>"; };
+		B22F45F91A10D7A000C0FB6B /* WCBomber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCBomber.m; sourceTree = "<group>"; };
+		B22F46051A10FDE200C0FB6B /* WCFrontEnd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCFrontEnd.h; sourceTree = "<group>"; };
+		B22F46061A10FDE200C0FB6B /* WCFrontEnd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WCFrontEnd.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		B2475C561A16069E0065C2CB /* WCImplosionFX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCImplosionFX.h; sourceTree = "<group>"; };
+		B2475C571A16069E0065C2CB /* WCImplosionFX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCImplosionFX.m; sourceTree = "<group>"; };
+		B24981111A1B41E10072F9F4 /* WCBomb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCBomb.h; sourceTree = "<group>"; };
+		B24981121A1B41E10072F9F4 /* WCBomb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCBomb.m; sourceTree = "<group>"; };
+		B25632EE1A14F8B5007A962F /* WCWessels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCWessels.h; sourceTree = "<group>"; };
+		B25632EF1A14F8B5007A962F /* WCWessels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCWessels.m; sourceTree = "<group>"; };
+		B25632F51A153914007A962F /* wessels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wessels.png; sourceTree = "<group>"; };
+		B25632F71A155807007A962F /* font.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = font.png; sourceTree = "<group>"; };
+		B2780DBA1A1F603B00E2179A /* WCSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCSoundManager.h; sourceTree = "<group>"; };
+		B2780DBB1A1F603B00E2179A /* WCSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCSoundManager.m; sourceTree = "<group>"; };
+		B2780DBD1A1F676A00E2179A /* sounds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sounds.plist; sourceTree = "<group>"; };
+		B280BA9619FE8AC600034305 /* WCBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCBackground.h; sourceTree = "<group>"; };
+		B280BA9719FE8AC600034305 /* WCBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCBackground.m; sourceTree = "<group>"; };
+		B28173C21A0D904C00F5C9C0 /* WCMutant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCMutant.h; sourceTree = "<group>"; };
+		B28173C31A0D904C00F5C9C0 /* WCMutant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCMutant.m; sourceTree = "<group>"; };
+		B281D3071A0E6605005818E3 /* WCScoreFX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCScoreFX.h; sourceTree = "<group>"; };
+		B281D3081A0E6605005818E3 /* WCScoreFX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCScoreFX.m; sourceTree = "<group>"; };
+		B28954571A06CE480060807E /* WCLander.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLander.h; sourceTree = "<group>"; };
+		B28954581A06CE480060807E /* WCLander.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLander.m; sourceTree = "<group>"; };
+		B289545A1A06CED00060807E /* WCHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCHuman.h; sourceTree = "<group>"; };
+		B289545B1A06CED00060807E /* WCHuman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCHuman.m; sourceTree = "<group>"; };
+		B289545D1A06D1850060807E /* WCAISprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCAISprite.h; sourceTree = "<group>"; };
+		B289545E1A06D1850060807E /* WCAISprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCAISprite.m; sourceTree = "<group>"; };
+		B28EAAD01A1D6C3900B864C9 /* WCTextFX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCTextFX.h; sourceTree = "<group>"; };
+		B28EAAD11A1D6C3900B864C9 /* WCTextFX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCTextFX.m; sourceTree = "<group>"; };
+		B290B3231A23461D009303EB /* humanfall.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = humanfall.mp4; sourceTree = "<group>"; };
+		B290B3251A234799009303EB /* bomberdie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bomberdie.mp4; sourceTree = "<group>"; };
+		B290B3271A234899009303EB /* laser.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = laser.mp4; sourceTree = "<group>"; };
+		B29C4F201A0793AD003C8D09 /* WCLaser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLaser.h; sourceTree = "<group>"; };
+		B29C4F211A0793AD003C8D09 /* WCLaser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WCLaser.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		B2A440921A0243CF0038FEAB /* WCInputManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCInputManager.h; sourceTree = "<group>"; };
+		B2A440931A0243CF0038FEAB /* WCInputManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCInputManager.m; sourceTree = "<group>"; };
+		B2AA4CF71A02D4D200F665BC /* WCPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCPlayer.h; sourceTree = "<group>"; };
+		B2AA4CF81A02D4D200F665BC /* WCPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WCPlayer.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		B2AA4CFA1A02DCB100F665BC /* WCGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCGlobals.h; sourceTree = "<group>"; };
+		B2AA4CFB1A02DCB100F665BC /* WCGlobals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WCGlobals.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		B2B0A9E41A27D88D00A61D26 /* WCPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCPrefs.h; sourceTree = "<group>"; };
+		B2B0A9E51A27D88D00A61D26 /* WCPrefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCPrefs.m; sourceTree = "<group>"; };
+		B2C574CE1A1B732200D311BC /* WCGrndExpFX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCGrndExpFX.h; sourceTree = "<group>"; };
+		B2C574CF1A1B732200D311BC /* WCGrndExpFX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCGrndExpFX.m; sourceTree = "<group>"; };
+		B2C574D31A1B7E9100D311BC /* sprites.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sprites.plist; sourceTree = "<group>"; };
+		B2CA9E3319FE7C1A008F0FE9 /* defender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = defender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2CA9E3719FE7C1A008F0FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2CA9E3819FE7C1A008F0FE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2CA9E3919FE7C1A008F0FE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2CA9E3B19FE7C1A008F0FE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2CA9E3D19FE7C1A008F0FE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B2CA9E4019FE7C1A008F0FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B2CA9E4619FE7C1A008F0FE9 /* defenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = defenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2CA9E4B19FE7C1A008F0FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2CA9E4C19FE7C1A008F0FE9 /* defenderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = defenderTests.m; sourceTree = "<group>"; };
+		B2CA9E5819FE7C70008F0FE9 /* WCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCView.m; sourceTree = "<group>"; };
+		B2CA9E5919FE7C70008F0FE9 /* WCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCView.h; sourceTree = "<group>"; };
+		B2CA9E5A19FE7C70008F0FE9 /* WCTextout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WCTextout.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		B2CA9E5B19FE7C70008F0FE9 /* WCTextout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCTextout.h; sourceTree = "<group>"; };
+		B2CA9E5C19FE7C70008F0FE9 /* WCSpriteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCSpriteManager.m; sourceTree = "<group>"; };
+		B2CA9E5D19FE7C70008F0FE9 /* WCSpriteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCSpriteManager.h; sourceTree = "<group>"; };
+		B2CA9E5E19FE7C70008F0FE9 /* WCMainLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCMainLoop.m; sourceTree = "<group>"; };
+		B2CA9E5F19FE7C70008F0FE9 /* WCMainLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCMainLoop.h; sourceTree = "<group>"; };
+		B2CE8ECD1A0CD2EF005DB2C5 /* WCEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCEffects.h; sourceTree = "<group>"; };
+		B2CE8ECE1A0CD2EF005DB2C5 /* WCEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCEffects.m; sourceTree = "<group>"; };
+		B2CE8ED01A0CD6FC005DB2C5 /* WCExplosionFX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCExplosionFX.h; sourceTree = "<group>"; };
+		B2CE8ED11A0CD6FC005DB2C5 /* WCExplosionFX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WCExplosionFX.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		B2D8435B1A23F918001D6B90 /* WCPod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCPod.h; sourceTree = "<group>"; };
+		B2D8435C1A23F918001D6B90 /* WCPod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCPod.m; sourceTree = "<group>"; };
+		B2D8435E1A23F932001D6B90 /* WCSwarmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCSwarmer.h; sourceTree = "<group>"; };
+		B2D8435F1A23F932001D6B90 /* WCSwarmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCSwarmer.m; sourceTree = "<group>"; };
+		B2DF8B3C1A1294B5009011C7 /* WCBaiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCBaiter.h; sourceTree = "<group>"; };
+		B2DF8B3D1A1294B5009011C7 /* WCBaiter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCBaiter.m; sourceTree = "<group>"; };
+		B2E412A61A0678BB0032B385 /* WCAIs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCAIs.h; sourceTree = "<group>"; };
+		B2E412A71A0678BB0032B385 /* WCAIs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WCAIs.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		B2EFB2E01A221A410079B5A7 /* doublesiren.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = doublesiren.mp4; sourceTree = "<group>"; };
+		B2EFB2E21A221A410079B5A7 /* humancatch.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = humancatch.mp4; sourceTree = "<group>"; };
+		B2EFB2E31A221A410079B5A7 /* humanpickup.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = humanpickup.mp4; sourceTree = "<group>"; };
+		B2EFB2E51A221A410079B5A7 /* inbound.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = inbound.mp4; sourceTree = "<group>"; };
+		B2EFB2E61A221A410079B5A7 /* landerdie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = landerdie.mp4; sourceTree = "<group>"; };
+		B2EFB2E71A221A410079B5A7 /* landershoot.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = landershoot.mp4; sourceTree = "<group>"; };
+		B2EFB2E81A221A410079B5A7 /* mutantshoot.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mutantshoot.mp4; sourceTree = "<group>"; };
+		B2EFB2EA1A221A410079B5A7 /* playerdie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = playerdie.mp4; sourceTree = "<group>"; };
+		B2EFB2EB1A221A410079B5A7 /* scoretable.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = scoretable.mp4; sourceTree = "<group>"; };
+		B2EFB2EC1A221A410079B5A7 /* siren.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = siren.mp4; sourceTree = "<group>"; };
+		B2EFB2ED1A221A410079B5A7 /* start.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = start.mp4; sourceTree = "<group>"; };
+		B2EFB2EE1A221A410079B5A7 /* thrust.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = thrust.mp4; sourceTree = "<group>"; };
+		B2EFB2EF1A221A410079B5A7 /* wessels.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = wessels.mp4; sourceTree = "<group>"; };
+		B2EFB2F01A221A410079B5A7 /* worldexplode.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = worldexplode.mp4; sourceTree = "<group>"; };
+		B2F701B01A276311005C49B2 /* swarmershoot.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = swarmershoot.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2CA9E3019FE7C1A008F0FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CA9E4319FE7C1A008F0FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2CA9E2A19FE7C1A008F0FE9 = {
+			isa = PBXGroup;
+			children = (
+				B2CA9E3519FE7C1A008F0FE9 /* defender */,
+				B2CA9E4919FE7C1A008F0FE9 /* defenderTests */,
+				B2CA9E3419FE7C1A008F0FE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2CA9E3419FE7C1A008F0FE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2CA9E3319FE7C1A008F0FE9 /* defender.app */,
+				B2CA9E4619FE7C1A008F0FE9 /* defenderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2CA9E3519FE7C1A008F0FE9 /* defender */ = {
+			isa = PBXGroup;
+			children = (
+				B2AA4CFA1A02DCB100F665BC /* WCGlobals.h */,
+				B2AA4CFB1A02DCB100F665BC /* WCGlobals.m */,
+				B2CA9E5D19FE7C70008F0FE9 /* WCSpriteManager.h */,
+				B2CA9E5C19FE7C70008F0FE9 /* WCSpriteManager.m */,
+				B2A440921A0243CF0038FEAB /* WCInputManager.h */,
+				B2A440931A0243CF0038FEAB /* WCInputManager.m */,
+				B2780DBA1A1F603B00E2179A /* WCSoundManager.h */,
+				B2780DBB1A1F603B00E2179A /* WCSoundManager.m */,
+				B2CA9E5B19FE7C70008F0FE9 /* WCTextout.h */,
+				B2CA9E5A19FE7C70008F0FE9 /* WCTextout.m */,
+				B2CA9E5919FE7C70008F0FE9 /* WCView.h */,
+				B2CA9E5819FE7C70008F0FE9 /* WCView.m */,
+				B22F46051A10FDE200C0FB6B /* WCFrontEnd.h */,
+				B22F46061A10FDE200C0FB6B /* WCFrontEnd.m */,
+				B2B0A9E41A27D88D00A61D26 /* WCPrefs.h */,
+				B2B0A9E51A27D88D00A61D26 /* WCPrefs.m */,
+				B25632EE1A14F8B5007A962F /* WCWessels.h */,
+				B25632EF1A14F8B5007A962F /* WCWessels.m */,
+				B224C5401A25E46900458D20 /* WCDemo.h */,
+				B224C5411A25E46900458D20 /* WCDemo.m */,
+				B280BA9619FE8AC600034305 /* WCBackground.h */,
+				B280BA9719FE8AC600034305 /* WCBackground.m */,
+				B2CE8ECD1A0CD2EF005DB2C5 /* WCEffects.h */,
+				B2CE8ECE1A0CD2EF005DB2C5 /* WCEffects.m */,
+				B2CE8ED01A0CD6FC005DB2C5 /* WCExplosionFX.h */,
+				B2CE8ED11A0CD6FC005DB2C5 /* WCExplosionFX.m */,
+				B2475C561A16069E0065C2CB /* WCImplosionFX.h */,
+				B2475C571A16069E0065C2CB /* WCImplosionFX.m */,
+				B2C574CE1A1B732200D311BC /* WCGrndExpFX.h */,
+				B2C574CF1A1B732200D311BC /* WCGrndExpFX.m */,
+				B281D3071A0E6605005818E3 /* WCScoreFX.h */,
+				B281D3081A0E6605005818E3 /* WCScoreFX.m */,
+				B28EAAD01A1D6C3900B864C9 /* WCTextFX.h */,
+				B28EAAD11A1D6C3900B864C9 /* WCTextFX.m */,
+				B2E412A61A0678BB0032B385 /* WCAIs.h */,
+				B2E412A71A0678BB0032B385 /* WCAIs.m */,
+				B289545D1A06D1850060807E /* WCAISprite.h */,
+				B289545E1A06D1850060807E /* WCAISprite.m */,
+				B289545A1A06CED00060807E /* WCHuman.h */,
+				B289545B1A06CED00060807E /* WCHuman.m */,
+				B28954571A06CE480060807E /* WCLander.h */,
+				B28954581A06CE480060807E /* WCLander.m */,
+				B28173C21A0D904C00F5C9C0 /* WCMutant.h */,
+				B28173C31A0D904C00F5C9C0 /* WCMutant.m */,
+				B2DF8B3C1A1294B5009011C7 /* WCBaiter.h */,
+				B2DF8B3D1A1294B5009011C7 /* WCBaiter.m */,
+				B22F45F81A10D7A000C0FB6B /* WCBomber.h */,
+				B22F45F91A10D7A000C0FB6B /* WCBomber.m */,
+				B2D8435B1A23F918001D6B90 /* WCPod.h */,
+				B2D8435C1A23F918001D6B90 /* WCPod.m */,
+				B2D8435E1A23F932001D6B90 /* WCSwarmer.h */,
+				B2D8435F1A23F932001D6B90 /* WCSwarmer.m */,
+				B22D5A0C1A12B91000EA53FB /* WCBullet.h */,
+				B22D5A0D1A12B91000EA53FB /* WCBullet.m */,
+				B24981111A1B41E10072F9F4 /* WCBomb.h */,
+				B24981121A1B41E10072F9F4 /* WCBomb.m */,
+				B2AA4CF71A02D4D200F665BC /* WCPlayer.h */,
+				B2AA4CF81A02D4D200F665BC /* WCPlayer.m */,
+				B29C4F201A0793AD003C8D09 /* WCLaser.h */,
+				B29C4F211A0793AD003C8D09 /* WCLaser.m */,
+				B2CA9E5F19FE7C70008F0FE9 /* WCMainLoop.h */,
+				B2CA9E5E19FE7C70008F0FE9 /* WCMainLoop.m */,
+				B2CA9E3819FE7C1A008F0FE9 /* AppDelegate.h */,
+				B2CA9E3919FE7C1A008F0FE9 /* AppDelegate.m */,
+				B2CA9E3D19FE7C1A008F0FE9 /* Images.xcassets */,
+				B2CA9E3F19FE7C1A008F0FE9 /* MainMenu.xib */,
+				B2CA9E3619FE7C1A008F0FE9 /* Supporting Files */,
+			);
+			path = defender;
+			sourceTree = "<group>";
+		};
+		B2CA9E3619FE7C1A008F0FE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2C574D31A1B7E9100D311BC /* sprites.plist */,
+				B207E5D81A2A9B9000CA0358 /* sprites.png */,
+				B25632F71A155807007A962F /* font.png */,
+				B207E5E61A2AACD800CA0358 /* logo.png */,
+				B25632F51A153914007A962F /* wessels.png */,
+				B2780DBD1A1F676A00E2179A /* sounds.plist */,
+				B290B3251A234799009303EB /* bomberdie.mp4 */,
+				B2EFB2E01A221A410079B5A7 /* doublesiren.mp4 */,
+				B2EFB2E21A221A410079B5A7 /* humancatch.mp4 */,
+				B290B3231A23461D009303EB /* humanfall.mp4 */,
+				B2EFB2E31A221A410079B5A7 /* humanpickup.mp4 */,
+				B2EFB2E51A221A410079B5A7 /* inbound.mp4 */,
+				B2EFB2E61A221A410079B5A7 /* landerdie.mp4 */,
+				B2EFB2E71A221A410079B5A7 /* landershoot.mp4 */,
+				B290B3271A234899009303EB /* laser.mp4 */,
+				B2EFB2E81A221A410079B5A7 /* mutantshoot.mp4 */,
+				B2EFB2EA1A221A410079B5A7 /* playerdie.mp4 */,
+				B2EFB2EB1A221A410079B5A7 /* scoretable.mp4 */,
+				B2EFB2EC1A221A410079B5A7 /* siren.mp4 */,
+				B2EFB2ED1A221A410079B5A7 /* start.mp4 */,
+				B2F701B01A276311005C49B2 /* swarmershoot.mp4 */,
+				B2EFB2EE1A221A410079B5A7 /* thrust.mp4 */,
+				B2EFB2EF1A221A410079B5A7 /* wessels.mp4 */,
+				B2EFB2F01A221A410079B5A7 /* worldexplode.mp4 */,
+				B2CA9E3719FE7C1A008F0FE9 /* Info.plist */,
+				B2CA9E3B19FE7C1A008F0FE9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2CA9E4919FE7C1A008F0FE9 /* defenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2CA9E4C19FE7C1A008F0FE9 /* defenderTests.m */,
+				B2CA9E4A19FE7C1A008F0FE9 /* Supporting Files */,
+			);
+			path = defenderTests;
+			sourceTree = "<group>";
+		};
+		B2CA9E4A19FE7C1A008F0FE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2CA9E4B19FE7C1A008F0FE9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2CA9E3219FE7C1A008F0FE9 /* defender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2CA9E5019FE7C1A008F0FE9 /* Build configuration list for PBXNativeTarget "defender" */;
+			buildPhases = (
+				B2CA9E2F19FE7C1A008F0FE9 /* Sources */,
+				B2CA9E3019FE7C1A008F0FE9 /* Frameworks */,
+				B2CA9E3119FE7C1A008F0FE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = defender;
+			productName = defender;
+			productReference = B2CA9E3319FE7C1A008F0FE9 /* defender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2CA9E4519FE7C1A008F0FE9 /* defenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2CA9E5319FE7C1A008F0FE9 /* Build configuration list for PBXNativeTarget "defenderTests" */;
+			buildPhases = (
+				B2CA9E4219FE7C1A008F0FE9 /* Sources */,
+				B2CA9E4319FE7C1A008F0FE9 /* Frameworks */,
+				B2CA9E4419FE7C1A008F0FE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2CA9E4819FE7C1A008F0FE9 /* PBXTargetDependency */,
+			);
+			name = defenderTests;
+			productName = defenderTests;
+			productReference = B2CA9E4619FE7C1A008F0FE9 /* defenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2CA9E2B19FE7C1A008F0FE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Wessels Consulting Ltd.";
+				TargetAttributes = {
+					B2CA9E3219FE7C1A008F0FE9 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					B2CA9E4519FE7C1A008F0FE9 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = B2CA9E3219FE7C1A008F0FE9;
+					};
+				};
+			};
+			buildConfigurationList = B2CA9E2E19FE7C1A008F0FE9 /* Build configuration list for PBXProject "defender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2CA9E2A19FE7C1A008F0FE9;
+			productRefGroup = B2CA9E3419FE7C1A008F0FE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2CA9E3219FE7C1A008F0FE9 /* defender */,
+				B2CA9E4519FE7C1A008F0FE9 /* defenderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2CA9E3119FE7C1A008F0FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B207E5E71A2AACD800CA0358 /* logo.png in Resources */,
+				B207E5D91A2A9B9000CA0358 /* sprites.png in Resources */,
+				B25632F61A153914007A962F /* wessels.png in Resources */,
+				B2EFB2FC1A221A410079B5A7 /* scoretable.mp4 in Resources */,
+				B2EFB2F81A221A410079B5A7 /* landershoot.mp4 in Resources */,
+				B2F701B11A276311005C49B2 /* swarmershoot.mp4 in Resources */,
+				B2EFB2F71A221A410079B5A7 /* landerdie.mp4 in Resources */,
+				B2EFB2FE1A221A410079B5A7 /* start.mp4 in Resources */,
+				B2CA9E3E19FE7C1A008F0FE9 /* Images.xcassets in Resources */,
+				B2780DBE1A1F676A00E2179A /* sounds.plist in Resources */,
+				B2EFB2F91A221A410079B5A7 /* mutantshoot.mp4 in Resources */,
+				B2EFB2F31A221A410079B5A7 /* humancatch.mp4 in Resources */,
+				B2EFB2FF1A221A410079B5A7 /* thrust.mp4 in Resources */,
+				B290B3261A234799009303EB /* bomberdie.mp4 in Resources */,
+				B290B3241A23461D009303EB /* humanfall.mp4 in Resources */,
+				B2CA9E4119FE7C1A008F0FE9 /* MainMenu.xib in Resources */,
+				B2EFB2F61A221A410079B5A7 /* inbound.mp4 in Resources */,
+				B290B3281A234899009303EB /* laser.mp4 in Resources */,
+				B2EFB2F41A221A410079B5A7 /* humanpickup.mp4 in Resources */,
+				B2EFB3001A221A410079B5A7 /* wessels.mp4 in Resources */,
+				B2EFB2F11A221A410079B5A7 /* doublesiren.mp4 in Resources */,
+				B2C574D41A1B7E9100D311BC /* sprites.plist in Resources */,
+				B2EFB2FD1A221A410079B5A7 /* siren.mp4 in Resources */,
+				B2EFB3011A221A410079B5A7 /* worldexplode.mp4 in Resources */,
+				B25632F81A155807007A962F /* font.png in Resources */,
+				B2EFB2FB1A221A410079B5A7 /* playerdie.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CA9E4419FE7C1A008F0FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2CA9E2F19FE7C1A008F0FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CE8ECF1A0CD2EF005DB2C5 /* WCEffects.m in Sources */,
+				B22F46071A10FDE200C0FB6B /* WCFrontEnd.m in Sources */,
+				B224C5421A25E46900458D20 /* WCDemo.m in Sources */,
+				B289545C1A06CED00060807E /* WCHuman.m in Sources */,
+				B2AA4CFC1A02DCB100F665BC /* WCGlobals.m in Sources */,
+				B281D3091A0E6605005818E3 /* WCScoreFX.m in Sources */,
+				B2A440941A0243CF0038FEAB /* WCInputManager.m in Sources */,
+				B2CE8ED21A0CD6FC005DB2C5 /* WCExplosionFX.m in Sources */,
+				B2C574D01A1B732200D311BC /* WCGrndExpFX.m in Sources */,
+				B2CA9E6319FE7C70008F0FE9 /* WCView.m in Sources */,
+				B2D8435D1A23F918001D6B90 /* WCPod.m in Sources */,
+				B2CA9E6619FE7C70008F0FE9 /* WCMainLoop.m in Sources */,
+				B2475C581A16069F0065C2CB /* WCImplosionFX.m in Sources */,
+				B2CA9E3C19FE7C1A008F0FE9 /* main.m in Sources */,
+				B28954591A06CE480060807E /* WCLander.m in Sources */,
+				B2780DBC1A1F603B00E2179A /* WCSoundManager.m in Sources */,
+				B22F45FA1A10D7A000C0FB6B /* WCBomber.m in Sources */,
+				B280BA9819FE8AC600034305 /* WCBackground.m in Sources */,
+				B289545F1A06D1850060807E /* WCAISprite.m in Sources */,
+				B25632F01A14F8B5007A962F /* WCWessels.m in Sources */,
+				B2CA9E6519FE7C70008F0FE9 /* WCSpriteManager.m in Sources */,
+				B28EAAD21A1D6C3900B864C9 /* WCTextFX.m in Sources */,
+				B2B0A9E61A27D88D00A61D26 /* WCPrefs.m in Sources */,
+				B28173C41A0D904C00F5C9C0 /* WCMutant.m in Sources */,
+				B2DF8B3E1A1294B5009011C7 /* WCBaiter.m in Sources */,
+				B2AA4CF91A02D4D200F665BC /* WCPlayer.m in Sources */,
+				B2CA9E6419FE7C70008F0FE9 /* WCTextout.m in Sources */,
+				B24981131A1B41E10072F9F4 /* WCBomb.m in Sources */,
+				B22D5A0E1A12B91000EA53FB /* WCBullet.m in Sources */,
+				B2CA9E3A19FE7C1A008F0FE9 /* AppDelegate.m in Sources */,
+				B29C4F221A0793AD003C8D09 /* WCLaser.m in Sources */,
+				B2E412A81A0678BB0032B385 /* WCAIs.m in Sources */,
+				B2D843601A23F932001D6B90 /* WCSwarmer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CA9E4219FE7C1A008F0FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CA9E4D19FE7C1A008F0FE9 /* defenderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2CA9E4819FE7C1A008F0FE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2CA9E3219FE7C1A008F0FE9 /* defender */;
+			targetProxy = B2CA9E4719FE7C1A008F0FE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2CA9E3F19FE7C1A008F0FE9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2CA9E4019FE7C1A008F0FE9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2CA9E4E19FE7C1A008F0FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B2CA9E4F19FE7C1A008F0FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B2CA9E5119FE7C1A008F0FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = defender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2CA9E5219FE7C1A008F0FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = defender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B2CA9E5419FE7C1A008F0FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = defenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/defender.app/Contents/MacOS/defender";
+			};
+			name = Debug;
+		};
+		B2CA9E5519FE7C1A008F0FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = defenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/defender.app/Contents/MacOS/defender";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2CA9E2E19FE7C1A008F0FE9 /* Build configuration list for PBXProject "defender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2CA9E4E19FE7C1A008F0FE9 /* Debug */,
+				B2CA9E4F19FE7C1A008F0FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2CA9E5019FE7C1A008F0FE9 /* Build configuration list for PBXNativeTarget "defender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2CA9E5119FE7C1A008F0FE9 /* Debug */,
+				B2CA9E5219FE7C1A008F0FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2CA9E5319FE7C1A008F0FE9 /* Build configuration list for PBXNativeTarget "defenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2CA9E5419FE7C1A008F0FE9 /* Debug */,
+				B2CA9E5519FE7C1A008F0FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2CA9E2B19FE7C1A008F0FE9 /* Project object */;
+}

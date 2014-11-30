@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>bomberdie.mp4</string>
+	<string>doublesiren.mp4</string>
+	<string>humancatch.mp4</string>
+	<string>humanfall.mp4</string>
+	<string>humanpickup.mp4</string>
+	<string>inbound.mp4</string>
+	<string>landerdie.mp4</string>
+	<string>landershoot.mp4</string>
+	<string>laser.mp4</string>
+	<string>mutantshoot.mp4</string>
+	<string>playerdie.mp4</string>
+	<string>scoretable.mp4</string>
+	<string>siren.mp4</string>
+	<string>start.mp4</string>
+	<string>swarmershoot.mp4</string>
+	<string>thrust.mp4</string>
+	<string>wessels.mp4</string>
+	<string>worldexplode.mp4</string>
+</array>
+</plist>

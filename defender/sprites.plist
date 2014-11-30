@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>bitmap</key>
+		<string>font.png</string>
+		<key>frames</key>
+		<array>
+			<string>{{1, 104}, {5, 7}}</string>
+			<string>{{7, 104}, {5, 7}}</string>
+			<string>{{13, 104}, {5, 7}}</string>
+			<string>{{19, 104}, {5, 7}}</string>
+			<string>{{25, 104}, {5, 7}}</string>
+			<string>{{31, 104}, {5, 7}}</string>
+			<string>{{37, 104}, {5, 7}}</string>
+			<string>{{43, 104}, {5, 7}}</string>
+			<string>{{49, 104}, {5, 7}}</string>
+			<string>{{55, 104}, {5, 7}}</string>
+			<string>{{61, 104}, {5, 7}}</string>
+			<string>{{67, 104}, {5, 7}}</string>
+			<string>{{73, 104}, {5, 7}}</string>
+			<string>{{79, 104}, {5, 7}}</string>
+			<string>{{85, 104}, {5, 7}}</string>
+			<string>{{91, 104}, {5, 7}}</string>
+			<string>{{97, 104}, {5, 7}}</string>
+			<string>{{103, 104}, {5, 7}}</string>
+			<string>{{109, 104}, {5, 7}}</string>
+			<string>{{115, 104}, {5, 7}}</string>
+			<string>{{121, 104}, {5, 7}}</string>
+			<string>{{127, 104}, {5, 7}}</string>
+			<string>{{1, 96}, {5, 7}}</string>
+			<string>{{7, 96}, {5, 7}}</string>
+			<string>{{13, 96}, {5, 7}}</string>
+			<string>{{19, 96}, {5, 7}}</string>
+			<string>{{25, 96}, {5, 7}}</string>
+			<string>{{31, 96}, {5, 7}}</string>
+			<string>{{37, 96}, {7, 7}}</string>
+			<string>{{45, 96}, {5, 7}}</string>
+			<string>{{51, 96}, {5, 7}}</string>
+			<string>{{57, 96}, {5, 7}}</string>
+			<string>{{63, 96}, {5, 7}}</string>
+			<string>{{69, 96}, {5, 7}}</string>
+			<string>{{75, 96}, {5, 7}}</string>
+			<string>{{81, 96}, {6, 7}}</string>
+			<string>{{88, 96}, {5, 7}}</string>
+			<string>{{94, 96}, {5, 7}}</string>
+			<string>{{100, 96}, {6, 7}}</string>
+			<string>{{107, 96}, {5, 7}}</string>
+			<string>{{113, 96}, {5, 7}}</string>
+			<string>{{119, 96}, {5, 7}}</string>
+		</array>
+	</dict>
+	<dict>
+		<key>bitmap</key>
+		<string>sprites.png</string>
+		<key>frames</key>
+		<array>
+			<string>{{1, 25}, {15, 6}}</string>
+			<string>{{17, 26}, {15, 5}}</string>
+			<string>{{33, 23}, {7, 8}}</string>
+			<string>{{41, 23}, {7, 8}}</string>
+			<string>{{49, 23}, {7, 8}}</string>
+			<string>{{57, 23}, {7, 8}}</string>
+			<string>{{65, 23}, {7, 8}}</string>
+			<string>{{73, 24}, {7, 7}}</string>
+			<string>{{81, 24}, {7, 7}}</string>
+			<string>{{89, 24}, {7, 7}}</string>
+			<string>{{97, 24}, {6, 7}}</string>
+			<string>{{104, 23}, {7, 8}}</string>
+			<string>{{112, 23}, {7, 8}}</string>
+			<string>{{1, 18}, {15, 6}}</string>
+			<string>{{17, 20}, {15, 5}}</string>
+			<string>{{33, 15}, {7, 7}}</string>
+			<string>{{41, 15}, {7, 7}}</string>
+			<string>{{49, 15}, {7, 7}}</string>
+			<string>{{57, 18}, {11, 4}}</string>
+			<string>{{73, 16}, {7, 7}}</string>
+			<string>{{81, 16}, {7, 7}}</string>
+			<string>{{89, 16}, {7, 7}}</string>
+			<string>{{97, 16}, {6, 7}}</string>
+			<string>{{104, 14}, {7, 8}}</string>
+			<string>{{112, 14}, {7, 8}}</string>
+			<string>{{1, 11}, {15, 6}}</string>
+			<string>{{17, 14}, {15, 5}}</string>
+			<string>{{33, 6}, {3, 8}}</string>
+			<string>{{37, 6}, {3, 8}}</string>
+			<string>{{41, 13}, {1, 1}}</string>
+			<string>{{43, 13}, {1, 1}}</string>
+			<string>{{45, 10}, {5, 4}}</string>
+			<string>{{51, 11}, {3, 3}}</string>
+			<string>{{57, 13}, {11, 4}}</string>
+			<string>{{73, 8}, {7, 7}}</string>
+			<string>{{81, 8}, {7, 7}}</string>
+			<string>{{89, 8}, {7, 7}}</string>
+			<string>{{97, 8}, {6, 7}}</string>
+			<string>{{104, 5}, {7, 8}}</string>
+			<string>{{1, 9}, {15, 1}}</string>
+			<string>{{17, 12}, {15, 1}}</string>
+			<string>{{41, 11}, {1, 1}}</string>
+			<string>{{43, 11}, {1, 1}}</string>
+			<string>{{51, 7}, {3, 3}}</string>
+			<string>{{57, 8}, {11, 4}}</string>
+			<string>{{73, 0}, {7, 7}}</string>
+			<string>{{81, 0}, {7, 7}}</string>
+			<string>{{89, 0}, {7, 7}}</string>
+			<string>{{97, 0}, {6, 7}}</string>
+			<string>{{1, 7}, {15, 1}}</string>
+			<string>{{17, 10}, {15, 1}}</string>
+			<string>{{41, 9}, {1, 1}}</string>
+			<string>{{43, 9}, {1, 1}}</string>
+			<string>{{57, 4}, {6, 3}}</string>
+			<string>{{1, 5}, {15, 1}}</string>
+			<string>{{17, 8}, {15, 1}}</string>
+			<string>{{41, 7}, {1, 1}}</string>
+			<string>{{43, 7}, {1, 1}}</string>
+			<string>{{17, 6}, {15, 1}}</string>
+			<string>{{30, 26}, {2, 5}}</string>
+			<string>{{30, 20}, {2, 5}}</string>
+			<string>{{30, 14}, {2, 5}}</string>
+		</array>
+		<key>anims</key>
+		<array>
+			<dict>
+				<key>animName</key>
+				<string>pod</string>
+				<key>frameIndex</key>
+				<array>
+					<integer>15</integer>
+					<integer>16</integer>
+					<integer>17</integer>
+				</array>
+			</dict>
+			<dict>
+				<key>animName</key>
+				<string>lasers</string>
+				<key>frameIndex</key>
+				<array>
+					<integer>39</integer>
+					<integer>49</integer>
+					<integer>54</integer>
+					<integer>40</integer>
+					<integer>50</integer>
+					<integer>55</integer>
+					<integer>58</integer>
+				</array>
+			</dict>
+			<dict>
+				<key>animName</key>
+				<string>baiter</string>
+				<key>frameIndex</key>
+				<array>
+					<integer>18</integer>
+					<integer>33</integer>
+					<integer>44</integer>
+				</array>
+			</dict>
+			<dict>
+				<key>animName</key>
+				<string>colors</string>
+				<key>frameIndex</key>
+				<array>
+					<integer>29</integer>
+					<integer>30</integer>
+					<integer>41</integer>
+					<integer>42</integer>
+					<integer>51</integer>
+					<integer>52</integer>
+					<integer>56</integer>
+					<integer>57</integer>
+				</array>
+			</dict>
+			<dict>
+				<key>animName</key>
+				<string>thrust</string>
+				<key>frameIndex</key>
+				<array>
+					<integer>1</integer>
+					<integer>14</integer>
+					<integer>26</integer>
+				</array>
+			</dict>
+			<dict>
+				<key>animName</key>
+				<string>mutant</string>
+				<key>frameIndex</key>
+				<array>
+					<integer>2</integer>
+					<integer>3</integer>
+					<integer>4</integer>
+					<integer>5</integer>
+					<integer>6</integer>
+				</array>
+			</dict>
+			<dict>
+				<key>animName</key>
+				<string>swarmer</string>
+				<key>frameIndex</key>
+				<array>
+					<integer>31</integer>
+				</array>
+			</dict>
+			<dict>
+				<key>animName</key>
+				<string>bomb</string>
+				<key>frameIndex</key>
+				<array>
+					<integer>32</integer>
+					<integer>43</integer>
+				</array>
+			</dict>
+			<dict>
+				<key>animName</key>
+				<string>bomber</string>
+				<key>frameIndex</key>
+				<array>
+					<integer>7</integer>
+					<integer>8</integer>
+					<integer>9</integer>
+					<integer>10</integer>
+					<integer>19</integer>
+					<integer>20</integer>
+					<integer>21</integer>
+					<integer>22</integer>
+					<integer>34</integer>
+					<integer>35</integer>
+					<integer>36</integer>
+					<integer>37</integer>
+					<integer>45</integer>
+					<integer>46</integer>
+					<integer>47</integer>
+					<integer>48</integer>
+				</array>
+			</dict>
+			<dict>
+				<key>animName</key>
+				<string>human</string>
+				<key>frameIndex</key>
+				<array>
+					<integer>27</integer>
+					<integer>28</integer>
+				</array>
+			</dict>
+			<dict>
+				<key>animName</key>
+				<string>lander</string>
+				<key>frameIndex</key>
+				<array>
+					<integer>11</integer>
+					<integer>12</integer>
+					<integer>23</integer>
+					<integer>24</integer>
+					<integer>38</integer>
+				</array>
+			</dict>
+			<dict>
+				<key>animName</key>
+				<string>player</string>
+				<key>frameIndex</key>
+				<array>
+					<integer>0</integer>
+					<integer>13</integer>
+					<integer>25</integer>
+				</array>
+			</dict>
+			<dict>
+				<key>animName</key>
+				<string>smartbomb</string>
+				<key>frameIndex</key>
+				<array>
+					<integer>53</integer>
+				</array>
+			</dict>
+			<dict>
+				<key>animName</key>
+				<string>idle</string>
+				<key>frameIndex</key>
+				<array>
+					<integer>59</integer>
+					<integer>60</integer>
+					<integer>61</integer>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>bitmap</key>
+		<string>logo.png</string>
+		<key>frames</key>
+		<array>
+			<string>{{0, 0}, {164, 31}}</string>
+			<string>{{0, 32}, {164, 31}}</string>
+			<string>{{0, 64}, {164, 31}}</string>
+			<string>{{0, 96}, {164, 31}}</string>
+			<string>{{0, 128}, {164, 31}}</string>
+			<string>{{0, 160}, {164, 31}}</string>
+		</array>
+		<key>anims</key>
+		<array>
+			<dict>
+				<key>animName</key>
+				<string>colors</string>
+				<key>frameIndex</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+					<integer>2</integer>
+					<integer>3</integer>
+					<integer>4</integer>
+					<integer>5</integer>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>bitmap</key>
+		<string>wessels.png</string>
+		<key>frames</key>
+		<array>
+			<string>{{0, 0}, {154, 32}}</string>
+			<string>{{0, 32}, {154, 32}}</string>
+		</array>
+		<key>anims</key>
+		<array>
+			<dict>
+				<key>animName</key>
+				<string>wessels</string>
+				<key>frameIndex</key>
+				<array>
+					<string>0</string>
+					<string>1</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
