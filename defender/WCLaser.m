@@ -85,6 +85,7 @@ CGFloat scale[LASER_STATES][LASER_COMPONENTS] =
 	return self;
 }
 
+/*---------------------------------------------------------------------------*/
 - (BOOL)run
 {
 	if(++state < LASER_HOLD*LASER_STATES)
