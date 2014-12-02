@@ -35,7 +35,7 @@
 	{
 		menuItems = [NSArray arrayWithObjects:@"UP", @"DOWN", @"THRUST", @"FIRE", @"FLIP", @"SMART BOMB", @"HYPERSPACE", @"1 PLAYER", @"2 PLAYER", @"RESET TO DEFAULTS", nil];
 		keyFontAttrDict = [NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:
-															   [NSFont fontWithName:@"Britannic Bold" size:26.0],
+															   [NSFont fontWithName:@"Times Roman" size:26.0],
 															   [NSColor redColor],
 															   [NSColor blackColor],
 															   nil]
@@ -45,7 +45,7 @@
 															   NSBackgroundColorAttributeName,
 															   nil]];
 		joyFontAttrDict = [NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:
-															   [NSFont fontWithName:@"Britannic Bold" size:26.0],
+															   [NSFont fontWithName:@"Times Roman" size:26.0],
 															   [NSColor cyanColor],
 															   [NSColor blackColor],
 															   nil]
