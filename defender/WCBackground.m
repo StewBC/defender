@@ -407,6 +407,10 @@ int starCmp(const void *a, const void *b)
 	{
 		switch([anAi isA])
 		{
+			case DB_PLAYER:	// Only in Demo mode - fake player
+				[[NSColor whiteColor] set];
+				break;
+				
 			case DB_LANDER:
 			case DB_BAITER:
 				[[NSColor greenColor] set];
@@ -452,14 +456,21 @@ int starCmp(const void *a, const void *b)
 		[NSBezierPath fillRect:aRect];
 	}
 	
-	// draw the player
-	aRect.origin = WCGlobals.globalsManager.thePlayer.worldPosition;
-	aRect.origin.x -= drawPoint.x;
-	if(aRect.origin.x < 0.0)
-		aRect.origin.x += fieldSize.width;
-	[[NSColor whiteColor] set];
-	[NSBezierPath fillRect:aRect];
-
+	// draw the player - not in demo mode, then use fake player
+	if(WCGlobals.globalsManager.renderVitals)
+	{
+		aRect.origin = WCGlobals.globalsManager.thePlayer.worldPosition;
+		aRect.origin.x -= drawPoint.x;
+		if(aRect.origin.x < 0.0)
+			aRect.origin.x += fieldSize.width;
+		[[NSColor whiteColor] set];
+		[NSBezierPath fillRect:aRect];
+	}
+	else
+	{
+		[[NSColor whiteColor] set];
+	}
+	
 	// Draw the screen size indicators
 	[aPath setLineWidth:BG_MAP_ICON_SIZE];
 	drawPoint = NSMakePoint(hfw - hvw, 40.0);
