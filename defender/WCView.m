@@ -354,7 +354,7 @@
 				drawPos.x -= aSprite.pivot.x;
 				drawPos.y -= aSprite.pivot.y;
 
-				[aSprite.spriteData.image drawAtPoint:drawPos fromRect:aSprite.srcRect operation:NSCompositeSourceOver fraction:aSprite.transparency];
+				[aSprite.spriteData.image drawAtPoint:drawPos fromRect:aSprite.srcRect operation:NSCompositingOperationSourceOver fraction:aSprite.transparency];
 				
 				if(xform)
 				{

@@ -39,6 +39,7 @@
 @synthesize renderSprite;
 @synthesize lasers;
 @synthesize theCargo;
+@dynamic    worldRect;
 @synthesize thrust;
 @synthesize targetVelocity;
 @synthesize keyHeld;

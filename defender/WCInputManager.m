@@ -150,7 +150,7 @@ void inputDeviceAction(void* inContext, IOReturn inResult, void* inSender, IOHID
 
 		if(page == kHIDPage_GenericDesktop)
 		{
-			if(fabs(state) < 16384)
+			if(labs(state) < 16384)
 				state = 0;
 			raw.value = state;
 		}
