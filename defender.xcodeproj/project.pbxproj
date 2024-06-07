@@ -41,7 +41,6 @@
 		B2CA9E3C19FE7C1A008F0FE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CA9E3B19FE7C1A008F0FE9 /* main.m */; };
 		B2CA9E3E19FE7C1A008F0FE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2CA9E3D19FE7C1A008F0FE9 /* Images.xcassets */; };
 		B2CA9E4119FE7C1A008F0FE9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2CA9E3F19FE7C1A008F0FE9 /* MainMenu.xib */; };
-		B2CA9E4D19FE7C1A008F0FE9 /* defenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CA9E4C19FE7C1A008F0FE9 /* defenderTests.m */; };
 		B2CA9E6319FE7C70008F0FE9 /* WCView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CA9E5819FE7C70008F0FE9 /* WCView.m */; };
 		B2CA9E6419FE7C70008F0FE9 /* WCTextout.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CA9E5A19FE7C70008F0FE9 /* WCTextout.m */; };
 		B2CA9E6519FE7C70008F0FE9 /* WCSpriteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CA9E5C19FE7C70008F0FE9 /* WCSpriteManager.m */; };
@@ -68,16 +67,6 @@
 		B2EFB3011A221A410079B5A7 /* worldexplode.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B2EFB2F01A221A410079B5A7 /* worldexplode.mp4 */; };
 		B2F701B11A276311005C49B2 /* swarmershoot.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B2F701B01A276311005C49B2 /* swarmershoot.mp4 */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B2CA9E4719FE7C1A008F0FE9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B2CA9E2B19FE7C1A008F0FE9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B2CA9E3219FE7C1A008F0FE9;
-			remoteInfo = defender;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B207E5D81A2A9B9000CA0358 /* sprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sprites.png; sourceTree = "<group>"; };
@@ -138,9 +127,6 @@
 		B2CA9E3B19FE7C1A008F0FE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B2CA9E3D19FE7C1A008F0FE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B2CA9E4019FE7C1A008F0FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		B2CA9E4619FE7C1A008F0FE9 /* defenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = defenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2CA9E4B19FE7C1A008F0FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2CA9E4C19FE7C1A008F0FE9 /* defenderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = defenderTests.m; sourceTree = "<group>"; };
 		B2CA9E5819FE7C70008F0FE9 /* WCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCView.m; sourceTree = "<group>"; };
 		B2CA9E5919FE7C70008F0FE9 /* WCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCView.h; sourceTree = "<group>"; };
 		B2CA9E5A19FE7C70008F0FE9 /* WCTextout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WCTextout.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -186,13 +172,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2CA9E4319FE7C1A008F0FE9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -200,7 +179,6 @@
 			isa = PBXGroup;
 			children = (
 				B2CA9E3519FE7C1A008F0FE9 /* defender */,
-				B2CA9E4919FE7C1A008F0FE9 /* defenderTests */,
 				B2CA9E3419FE7C1A008F0FE9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -209,7 +187,6 @@
 			isa = PBXGroup;
 			children = (
 				B2CA9E3319FE7C1A008F0FE9 /* defender.app */,
-				B2CA9E4619FE7C1A008F0FE9 /* defenderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -321,23 +298,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B2CA9E4919FE7C1A008F0FE9 /* defenderTests */ = {
-			isa = PBXGroup;
-			children = (
-				B2CA9E4C19FE7C1A008F0FE9 /* defenderTests.m */,
-				B2CA9E4A19FE7C1A008F0FE9 /* Supporting Files */,
-			);
-			path = defenderTests;
-			sourceTree = "<group>";
-		};
-		B2CA9E4A19FE7C1A008F0FE9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B2CA9E4B19FE7C1A008F0FE9 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -358,24 +318,6 @@
 			productReference = B2CA9E3319FE7C1A008F0FE9 /* defender.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B2CA9E4519FE7C1A008F0FE9 /* defenderTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B2CA9E5319FE7C1A008F0FE9 /* Build configuration list for PBXNativeTarget "defenderTests" */;
-			buildPhases = (
-				B2CA9E4219FE7C1A008F0FE9 /* Sources */,
-				B2CA9E4319FE7C1A008F0FE9 /* Frameworks */,
-				B2CA9E4419FE7C1A008F0FE9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B2CA9E4819FE7C1A008F0FE9 /* PBXTargetDependency */,
-			);
-			name = defenderTests;
-			productName = defenderTests;
-			productReference = B2CA9E4619FE7C1A008F0FE9 /* defenderTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -388,10 +330,6 @@
 				TargetAttributes = {
 					B2CA9E3219FE7C1A008F0FE9 = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					B2CA9E4519FE7C1A008F0FE9 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = B2CA9E3219FE7C1A008F0FE9;
 					};
 				};
 			};
@@ -409,7 +347,6 @@
 			projectRoot = "";
 			targets = (
 				B2CA9E3219FE7C1A008F0FE9 /* defender */,
-				B2CA9E4519FE7C1A008F0FE9 /* defenderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -445,13 +382,6 @@
 				B2EFB3011A221A410079B5A7 /* worldexplode.mp4 in Resources */,
 				B25632F81A155807007A962F /* font.png in Resources */,
 				B2EFB2FB1A221A410079B5A7 /* playerdie.mp4 in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2CA9E4419FE7C1A008F0FE9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,23 +428,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2CA9E4219FE7C1A008F0FE9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2CA9E4D19FE7C1A008F0FE9 /* defenderTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B2CA9E4819FE7C1A008F0FE9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B2CA9E3219FE7C1A008F0FE9 /* defender */;
-			targetProxy = B2CA9E4719FE7C1A008F0FE9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B2CA9E3F19FE7C1A008F0FE9 /* MainMenu.xib */ = {
@@ -582,6 +496,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SYMROOT = "$(PROJECT_DIR)/Build";
 			};
 			name = Debug;
 		};
@@ -632,6 +547,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SYMROOT = "$(PROJECT_DIR)/Build";
 			};
 			name = Release;
 		};
@@ -639,8 +555,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = G9HR7CMPD5;
 				INFOPLIST_FILE = defender/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -650,6 +569,7 @@
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wessels-consulting.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -657,8 +577,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = G9HR7CMPD5;
 				INFOPLIST_FILE = defender/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -668,56 +591,7 @@
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wessels-consulting.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		B2CA9E5419FE7C1A008F0FE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEAD_CODE_STRIPPING = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = defenderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wessels-consulting.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/defender.app/Contents/MacOS/defender";
-			};
-			name = Debug;
-		};
-		B2CA9E5519FE7C1A008F0FE9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEAD_CODE_STRIPPING = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = defenderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wessels-consulting.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/defender.app/Contents/MacOS/defender";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -731,7 +605,7 @@
 				B2CA9E4F19FE7C1A008F0FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		B2CA9E5019FE7C1A008F0FE9 /* Build configuration list for PBXNativeTarget "defender" */ = {
 			isa = XCConfigurationList;
@@ -740,16 +614,7 @@
 				B2CA9E5219FE7C1A008F0FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B2CA9E5319FE7C1A008F0FE9 /* Build configuration list for PBXNativeTarget "defenderTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B2CA9E5419FE7C1A008F0FE9 /* Debug */,
-				B2CA9E5519FE7C1A008F0FE9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
