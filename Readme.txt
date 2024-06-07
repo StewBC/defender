@@ -1,3 +1,6 @@
+0.   Modern macOS
+
+To make this game work, make sure the defender.app that was built is added to System Settings -> Privacy & Security -> Input Monitoring or the keyboard (and thus game) simply will not work.
 
 I.   Introduction
 
