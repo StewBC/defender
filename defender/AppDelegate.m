@@ -22,6 +22,11 @@
 /*---------------------------------------------------------------------------*/
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	// Insert code here to initialize your application
+    if (@available(macOS 10.15, *)) {
+        // below requests "Input Monitoring"
+        IOHIDRequestAccess(kIOHIDRequestTypeListenEvent);
+    }
+    
 	[[self window] setCollectionBehavior:NSWindowCollectionBehaviorFullScreenPrimary];
 //	[[self window] toggleFullScreen:self];
 }
